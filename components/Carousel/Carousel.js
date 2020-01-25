@@ -69,3 +69,4 @@ const carousel = document.querySelectorAll('.carousel');
 carousel = Array.from(carousel).map(link => new Carousel(link));
 
 carousel[0].CarouselScrollLeft();
+
